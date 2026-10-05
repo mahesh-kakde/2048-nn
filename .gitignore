@@ -1,0 +1,37 @@
+# non-publishable project files
+PLAN.html
+AGENTS.md
+BLUEPRINT.pdf
+blueprint_text.txt
+
+# os
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# node
+node_modules/
+package-lock.json
+
+# python / kaggle artifacts
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.npz
+*.keras
+*.h5
+
+# kaggle output zips
+*_output.zip
+
+# environment
+.env
+.env.local
